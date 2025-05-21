@@ -216,9 +216,15 @@ const AppSidebar = () => {
                 </SidebarMenuButton>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" sideOffset={10}>
-                <DropdownMenuItem>Account</DropdownMenuItem>
-                <DropdownMenuItem>Settings</DropdownMenuItem>
-                <DropdownMenuItem>Sign Out</DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="/users/{aung}">Account</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="#">Settings</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="#">Sign Out</Link>
+                </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </SidebarMenuItem>
